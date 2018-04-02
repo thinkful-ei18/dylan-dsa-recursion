@@ -9,4 +9,4 @@ function fib(num, result=[1, 1]) {
   return fib(num - 1, result);
 }
 
-console.log(fib(30));
+console.log(fib(7));
