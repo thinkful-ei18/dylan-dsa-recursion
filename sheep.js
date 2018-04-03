@@ -10,3 +10,12 @@ function countSheep(numSheep) {
 }
 
 countSheep(3);
+
+function countSheepIt(num) {
+  while (num > 0) {
+    console.log(`${num} - Another sheep jumps the fence`);
+    num--;
+  }
+}
+
+countSheepIt(3);

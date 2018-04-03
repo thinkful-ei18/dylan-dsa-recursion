@@ -9,3 +9,14 @@ function doubleArray(arr) {
 }
 
 console.log(doubleArray([1, 2, 3]));
+
+function doubleIt(arr) {
+  let result = [];
+  for ( let i = 0; i < arr.length; i++ ) {
+    result[i] = arr[i] * 2;
+  } 
+  return result;
+}
+
+
+console.log(doubleIt([1, 2, 3]));

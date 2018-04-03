@@ -14,4 +14,4 @@ function anagram(str, result=[], prefix='') {
   return result;
 }
 
-console.log(anagram('east'));
+console.log(anagram('easa'));
